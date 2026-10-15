@@ -1,0 +1,1 @@
+import axios from 'axios'; async function start() { try { const res = await axios.get('https://typicode.com'); console.log('=== SUCCESS ==='); console.log('User Name:', res.data.name); } catch(e) { console.error(e); } } start();
